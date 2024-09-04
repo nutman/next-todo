@@ -26,7 +26,7 @@ const DialogDefault = forwardRef(function DialogDefault({}, ref) {
       <Dialog open={open} handler={handleOpen}>
         <DialogHeader className="text-center block">Validation passed</DialogHeader>
         <DialogBody className="text-center">
-          <a href="https://github.com/nutman" target="_blank">Link to repo</a>
+          <a href="https://github.com/nutman/next-todo" target="_blank">Link to repo</a>
         </DialogBody>
         <DialogFooter>
           <Button
